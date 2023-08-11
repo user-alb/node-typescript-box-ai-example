@@ -29,6 +29,10 @@ Where:
 * `<AI MODE>` is either `single_item_qa` or `text_gen`
 * `<FILE ID>` is the File ID in Box of the file to run the API on
 
+## How to update prompt
+
+Update 
+
 ## How to run all tests
 
 ```
