@@ -31,7 +31,7 @@ Where:
 
 ## How to update prompt
 
-Update 
+Update line 2 of `index.ts` (modify `const PROMPT = 'what is the purpose?'`).
 
 ## How to run all tests
 

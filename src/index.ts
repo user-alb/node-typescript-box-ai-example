@@ -9,8 +9,8 @@ interface DialogHistoryItem {
 
 interface BoxItem {
     id: string,
-    type: 'file' | 'folder' | 'hub', // only file is currently supported. folder and hub not supported as of 8/11/
-    content?: string
+    type: 'file' | 'folder' | 'hub', // only file is currently supported. folder and hub not supported as of 8/11/23
+    content ? : string
 }
 
 interface BoxAIAPIRequest {
@@ -43,17 +43,18 @@ export async function main() {
         process.exit(1);
     }
 
-    const accessToken = process.argv[2];  // The first user-supplied argument
-    const asUserId = process.argv[3];  // The second user-supplied argument
-    const requestType = process.argv[4];  // The third user-supplied argument
-    const fileId = process.argv[5];  // The third user-supplied argument
+    const accessToken = process.argv[2];
+    const asUserId = process.argv[3];
+    const requestType = process.argv[4];
+    const fileId = process.argv[5];
 
 
     const aiRequest: BoxAIAPIRequest = {
         mode: requestType,
-        items: [
-            { id: fileId, type: 'file' }
-        ],
+        items: [{
+            id: fileId,
+            type: 'file'
+        }],
         dialog_history: [],
         config: {
             is_streamed: false
