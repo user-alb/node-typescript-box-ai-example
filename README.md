@@ -26,3 +26,9 @@ npm start <DEVELOPER KEY> <USER ID TO IMPERSONATE> <AI MODE> <FILE ID>
 ```
 npm test
 ```
+
+## TODO:
+
+Finish tests
+Add all endpoints 
+Add OCliff?
