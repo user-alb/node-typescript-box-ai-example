@@ -1,6 +1,8 @@
-# Unit testing Node.js with Jest using Typescript
+# Node TypeScript Box AI Example
 
 ## Purpose
+
+Demonstrate the use of the Box AI API with Node.js and TypeScript.
 
 ## Prerequisites
 
@@ -21,6 +23,12 @@ You will need to download a Box JWT config file for your Box test account and sa
 npm start <DEVELOPER KEY> <USER ID TO IMPERSONATE> <AI MODE> <FILE ID>
 ```
 
+Where:
+* `<DEVELOPER KEY>` is a Box Developer key.
+* `<USER ID TO IMPERSONTATE>` is a Box User ID with access to `<FILE ID>`
+* `<AI MODE>` is either `single_item_qa` or `text_gen`
+* `<FILE ID>` is the File ID in Box of the file to run the API on
+
 ## How to run all tests
 
 ```
@@ -29,9 +37,9 @@ npm test
 
 ## TODO:
 
-* Finish tests
 * Add all endpoints 
 * Add OCliff?
 * Update README.md
+* Finish tests
 * Add support for OAuth (v2)
 * Add support for JWT (v2)
