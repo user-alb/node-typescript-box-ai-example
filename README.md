@@ -29,6 +29,9 @@ npm test
 
 ## TODO:
 
-Finish tests
-Add all endpoints 
-Add OCliff?
+* Finish tests
+* Add all endpoints 
+* Add OCliff?
+* Update README.md
+* Add support for OAuth (v2)
+* Add support for JWT (v2)
