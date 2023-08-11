@@ -4,7 +4,7 @@
 
 ## Prerequisites
 
-You will need Node.js installed on your computer. These instructions were tested with Node v19.9.0 and v16.17.0.
+You will need Node.js installed on your computer. These instructions were tested with Node v19.9.0.
 
 ## How to install and configure the repo
 
